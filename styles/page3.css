@@ -1,14 +1,67 @@
-.page3{
-    margin: 0;
-    min-height: 900px;
+.page3 {
+  margin: 0;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.page3 h2 {
+  width: fit-content;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  margin-bottom: 50px;
+}
+.carousel {
+    width: 70%;
+  }
+.carousel-item {
+  border: 1px #67aefc solid;
+  border-radius: 15px;
+}
+.carousel-item-wrap{
+    padding: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.carousel-item-lc{
+    max-width: 70%;
+}
+.carousel-item-rc{
+    flex-grow: 1;
+}
+.page3Shape{
+    position: absolute;
+    width: fit-content;
+    top: 129px;
+    left: 187px;
+}
+.page3Image6{
+    position: absolute;
+    width: fit-content;
+    bottom: 47px;
+    right: 186px;
+}
+.page3Control{
+    margin-top: 50px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.page3 h2{
-    width: fit-content;
+.page3Control button{
+    font-size: 30px;
+    background-color: #fff;
+    border: 1px #67AEFC solid;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    margin: 0px 15px;
 }
-.carousel-item{
-    border: 1px #000 solid;
-}
+
+

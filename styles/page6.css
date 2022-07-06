@@ -1,36 +1,35 @@
-.page5 {
+.page6 {
   margin: 0;
-  min-height: 724px;
   position: relative;
-}
-.page5lc {
+  min-height: 774px;
+  background-color: #daecff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.page5rc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-.page5lc h2 {
-  margin-bottom: 50px;
-  width: fit-content;
+.page6 h2 {
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
   line-height: 125%;
 }
-.page5lb {
-  max-width: 50%;
+.page6 p {
+  line-height: 30px;
+  width: 470px;
+  text-align: center;
 }
-.page5But {
-    margin-top: 50px;
+.page6 input {
+  height: 58px;
+  width: 470px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.page6But {
+  margin-top: 50px;
   background-color: #75e169;
   border: none;
-  padding: 23px 60px;
+  padding: 23px 85px;
   color: #fff;
   border-radius: 5px;
   /* font-family: "Montserrat"; */
@@ -41,9 +40,15 @@
   border: 2px solid transparent;
   transition: 0.3s;
 }
-.page5Shape{
+.page6img{
     position: absolute;
     width: fit-content;
-    top: 150px;
-    left: 153px;
+    top: 289px;
+    right: 405px;
+}
+.page6img1{
+    position: absolute;
+    width: fit-content;
+    top: 262px;
+    left: 232px;
 }

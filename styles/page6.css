@@ -24,6 +24,7 @@
   width: 470px;
   margin: 10px 0;
   border-radius: 10px;
+  border: 1px #67AEFC solid;
 }
 .page6But {
   margin-top: 50px;
@@ -40,6 +41,12 @@
   border: 2px solid transparent;
   transition: 0.3s;
 }
+.page6But:hover{
+  border: 2px solid #67AEFC;
+}
+.page6But:active{
+background-color: #67AEFC;
+}
 .page6img{
     position: absolute;
     width: fit-content;
@@ -51,4 +58,7 @@
     width: fit-content;
     top: 262px;
     left: 232px;
+}
+.page6row{
+    margin: 0;
 }

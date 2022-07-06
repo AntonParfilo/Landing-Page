@@ -41,6 +41,12 @@
   border: 2px solid transparent;
   transition: 0.3s;
 }
+.page5But:hover{
+    border: 2px solid #67AEFC;
+}
+.page5But:active{
+  background-color: #67AEFC;
+}
 .page5Shape{
     position: absolute;
     width: fit-content;

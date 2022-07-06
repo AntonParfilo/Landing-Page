@@ -50,6 +50,9 @@
   color: #000;
   background-color: #fff;
 }
+.accordion-button:not(.collapsed) span{
+  background-color: #67AEFC;
+}
 
 .bullGreen {
   height: 24px;

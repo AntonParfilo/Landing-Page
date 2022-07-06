@@ -1,0 +1,14 @@
+.page3{
+    margin: 0;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page3 h2{
+    width: fit-content;
+}
+.carousel-item{
+    border: 1px #000 solid;
+}

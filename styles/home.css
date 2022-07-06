@@ -1,0 +1,38 @@
+.home {
+  margin: 0px;
+  height: 766px;
+}
+.cartImg {
+  width: 100%;
+}
+.rcHome {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+.lcHome{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.lcHome h1 {
+    margin-bottom: 20px;
+  color: #484848;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 125%;
+}
+.lcHome p{
+    margin-bottom: 58px;
+}
+.img2Home{
+    align-self: flex-start;
+}
+.shapeImg{
+    position: relative;
+    right: 150px;
+    top: 20px;
+}

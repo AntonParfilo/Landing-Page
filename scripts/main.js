@@ -4,13 +4,13 @@ const burger = {
     getState: () => this.state,
     openMenu : (menu, but) => {
         menu.style.display="flex";
-        but.style.backgroundImage="url('../img/header/close.png')";
+        but.style.backgroundImage="url('../testRemotEmployees/img/header/close.png')";
         this.state = true;
     },
     closeMenu : (menu, but) => {
         menu.style.display="none";
         this.state = false;
-        but.style.backgroundImage="url('../img/header/burger.png')";
+        but.style.backgroundImage="url('../testRemotEmployees/img/header/burger.png')";
     }
 }
 

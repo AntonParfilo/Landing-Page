@@ -73,7 +73,7 @@
   display: none;
 }
 .burger{
-  background-image: url("/img/header/burger.png");
+  background-image: url("./img/header/burger.png");
   background-size: cover;
   width: 56px;
   height: 56px;

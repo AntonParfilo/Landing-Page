@@ -13,8 +13,8 @@
   font-size: 32px;
   line-height: 125%;
 }
-.page4Tittle{
-    margin: 0;
+.page4Tittle {
+  margin: 0;
 }
 .page4-lc {
   margin-top: 50px;
@@ -32,45 +32,86 @@
   margin: 10px 0px;
   position: relative;
 }
-.page4-item:hover{
-    cursor: pointer;
+.page4-item img{
+  width: 100%;
 }
-.page4-item:hover .page4Pitem{
-    visibility: visible;
-    opacity: 1;
+.page4-item:hover {
+  cursor: pointer;
 }
-.page4Shape{
-    position: absolute;
-    width: fit-content;
-    right: 122px;
-    bottom: 244px;
+.page4-item:hover .page4Pitem {
+  visibility: visible;
+  opacity: 1;
 }
-.page4Img7{
-    position: absolute;
-    width: fit-content;
-    left: 23px;
-    top: 301px;
+.page4Shape {
+  position: absolute;
+  width: fit-content;
+  right: 122px;
+  bottom: 244px;
 }
-.page4Pitem{
-    color: #fff;
-    display: flex;
-    justify-content: center;
+.page4Img7 {
+  position: absolute;
+  width: fit-content;
+  left: 23px;
+  top: 301px;
+}
+.page4Pitem {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(103, 174, 252, 0.9);
+  border-radius: 15px;
+  opacity: 0;
+  transition: visibility 0.2s, opacity 0.3s linear;
+  visibility: hidden;
+}
+.page4Pitem h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 125%;
+}
+#carouselExampleControlspage4 {
+  display: none;
+}
+
+@media (max-width: 770px) {
+  .page4-lc {
     align-items: center;
-    flex-direction: column;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(103, 174, 252, 0.9);
+  }
+  .page4-rc {
+    align-items: center;
+  }
+  .page4Img7 {
+    display: none;
+  }
+  .page4Shape {
+    display: none;
+  }
+  .page4-item img,
+  .carousel {
+    width: 100%;
+  }
+  .carousel-item {
+    border: none;
+  }
+  #carouselExampleControlspage4 {
+    display: block;
+  }
+  .page4-lc,
+  .page4-rc {
+    display: none;
+  }
+  .page4Pitem {
     border-radius: 15px;
-    opacity: 0;
-    transition: visibility .2s, opacity 0.3s linear;
-    visibility: hidden;
-}
-.page4Pitem h3{
-    font-style: normal;
-font-weight: 700;
-font-size: 21px;
-line-height: 125%;
+  }
+  .page4 h2 {
+    text-align: center;
+  }
 }

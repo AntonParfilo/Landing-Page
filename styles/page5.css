@@ -15,6 +15,9 @@
   justify-content: center;
   align-items: flex-start;
 }
+.page5rc img{
+  width: 100%;
+}
 .page5lc h2 {
   margin-bottom: 50px;
   width: fit-content;
@@ -50,6 +53,35 @@
 .page5Shape{
     position: absolute;
     width: fit-content;
-    top: 150px;
-    left: 153px;
+    top: calc(2em + 6vw);
+    left: calc(1em + 5vw);
+}
+.page5mimg{
+  display: none;
+}
+
+
+@media (max-width: 770px) {
+  .page5lb{
+    max-width: 100%;
+  }
+  .page5lb h2{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .page5Shape{
+    display: none;
+  }
+  .page5rc img{
+    display: none;
+  }
+  .page5mimg{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .page5But{
+    width: 100%;
+    margin-top: 20px;
+  }
 }

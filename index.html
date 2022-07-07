@@ -24,39 +24,51 @@
 <body>
     <div class="containeer-fluid">
         <div class="row header">
-            <div class="col-md-6 lc">
+            <div class="lc">
                 <img src="/img/header/Frame.png" alt="relevant seo text" class="logo">
             </div>
-            <div class="col-md-6 rc">
+            <div class="rc">
                 <a href="#">Услуги</a>
                 <a href="#">Портфолио</a>
                 <a href="#">Этапы</a>
                 <a href="#">Дизайнеры</a>
                 <button class="headerBut">ЗАКАЗАТЬ</button>
             </div>
+            <div class="burger-wrap">
+                <div class="burger" id="burger"></div>
+            </div>
         </div>
     </div>
     <div class="containeer">
         <div class="row home">
-            <div class="col-md-6 lcHome">
+            <div class="col-md-2 homelc">
+                <img class="shapeImg" id="shapeImg" src="/img/home/shape.png" alt="relevant seo text">
+                <img class="img2Home" src="/img/home/img2.png" alt="relevant seo text">
+            </div>
+            <div class="burger-menu" id="burger-menu">
+                <a href="#">Услуги</a>
+                <a href="#">Портфолио</a>
+                <a href="#">Этапы</a>
+                <a href="#">Дизайнеры</a>
+            </div>
+            <div class="col-md-4 lcHome">
                 <div>
-                    <img class="shapeImg" src="/img/home/shape.png" alt="relevant seo text">
                     <h1>
-                        Разработка</br> интернет-магазина </br>
+                        Разработка интернет-магазина
                         с нуля за неделю
                     </h1>
                     <p>
-                        Дизайн интернет магазина, элементов микро UX,</br> корзин, личного кабинета - от фирменного
-                        стиля</br>
-                        до пользовательского интерфейса в сжатые сроки</br>
+                        Дизайн интернет магазина, элементов микро UX, корзин, личного кабинета - от фирменного
+                        стиля
+                        до пользовательского интерфейса в сжатые сроки
                         с командой Virtual Designers
                     </p>
                     <button class="headerBut">ЗАКАЗАТЬ</button>
                 </div>
-                <img class="img2Home" src="/img/home/img2.png" alt="relevant seo text">
             </div>
-            <div class="col-md-6 rcHome">
+            <div class="col-md-6 order-md-last order-first rcHome">
                 <img class="cartImg" src="/img/home/Cart.png" alt="relevant seo text">
+                <img class="cartImgm" src="/img/home/m-img.png" alt="relevant seo text">
             </div>
         </div>
         <div class="row page2">
@@ -259,6 +271,67 @@
                 <img src="/img/page4/image7.png" class="page4Img7" alt="relevant seo text">
                 <h2>Примеры онлайн-магазинов</h2>
             </div>
+            <div id="carouselExampleControlspage4" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="page4-item">
+                            <div class="page4Pitem">
+                                <h3>Онлайн-магазин</h3>
+                                <p>для оптовых покупок</p>
+                            </div>
+                            <img src="/img/page4/image1.png" alt="relevant seo text">
+                        </div>
+                        <div class="page4-item">
+                            <div class="page4Pitem">
+                                <h3>Онлайн-магазин</h3>
+                                <p>для парикмахеров</p>
+                            </div>
+                            <img src="/img/page4/image2.png" alt="relevant seo text">
+                        </div>
+                        <div class="page4-item">
+                            <div class="page4Pitem">
+                                <h3>Онлайн-магазин</h3>
+                                <p>для кондитеров</p>
+                            </div>
+                            <img src="/img/page4/image3.png" alt="relevant seo text">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="page4-item">
+                            <div class="page4Pitem">
+                                <h3>Онлайн-магазин</h3>
+                                <p>для флористов</p>
+                            </div>
+                            <img src="/img/page4/image4.png" alt="relevant seo text">
+                        </div>
+                        <div class="page4-item">
+                            <div class="page4Pitem">
+                                <h3>Онлайн-магазин</h3>
+                                <p>для визажистов</p>
+                            </div>
+                            <img src="/img/page4/image5.png" alt="relevant seo text">
+                        </div>
+                        <div class="page4-item">
+                            <div class="page4Pitem">
+                                <h3>Онлайн-магазин</h3>
+                                <p>для художников</p>
+                            </div>
+                            <img src="/img/page4/image6.png" alt="relevant seo text">
+                        </div>
+                    </div>
+                </div>
+                <div class="page3Control">
+                    <button class="carouselPrev" type="button" data-bs-target="#carouselExampleControlspage4"
+                        data-bs-slide="prev">
+                        <span class="visually-show">
+                            < </span>
+                    </button>
+                    <button class="carouselNext" type="button" data-bs-target="#carouselExampleControlspage4"
+                        data-bs-slide="next">
+                        <span class="visually-show">></span>
+                    </button>
+                </div>
+            </div>
             <div class="col-md-6 page4-lc">
                 <div class="page4-item">
                     <div class="page4Pitem">
@@ -311,6 +384,7 @@
             <div class="col-md-7 page5lc">
                 <div class="page5lb">
                     <h2>Необходимо больше информации?</h2>
+                    <img src="/img/page5/Orders.png" class="page5mimg" alt="relevant seo text">
                     <p>Если Вы владелец онлайн-магазина или только начинаете свой путь в электронной коммерции и вам
                         нужен
                         уникальный дизайн онлайн магазина для стартапа, обратитесь к нашему веб дизайнеру. За выгодную
@@ -327,10 +401,12 @@
             <div class="col-md-12 page6">
                 <h2>Обсудить проект</h2>
                 <p>Расскажите о своих бизнес-целях и мы поможем</br> вам в их достижении</p>
-                <input type="text" class="form-control" id="" placeholder="Имя">
-                <input type="text" class="form-control" id="" placeholder="Telegram/Viber">
-                <input type="email" class="form-control" id="" placeholder="Email">
-                <button class="page6But">ОТПРАВИТЬ</button>
+                <form  action="#" class="page6Form" id="validateForm">
+                    <input type="text" class="form-control" id="" required="required" minlength="3" maxlength="30" placeholder="Имя">
+                    <input type="text" class="form-control" id="" required="required" minlength="3" maxlength="30" placeholder="Telegram/Viber">
+                    <input type="email" class="form-control" id="" required="required" minlength="3" maxlength="30" placeholder="Email">
+                    <button class="page6But" id="sendform">ОТПРАВИТЬ</button>
+                </form>
                 <img src="/img/page6/img1.png" class="page6img" alt="relevant seo text">
                 <img src="/img/page6/phone.png" class="page6img1" alt="relevant seo text">
             </div>
@@ -363,8 +439,32 @@
             <div class="col-md-4 footerrc">
                 <p>hr@dv-s.com</p>
             </div>
+            <div class="footerm">
+                <img src="/img/footer/Frame.png" class="mlogo" alt="relevant seo text">
+                <div>
+                    <div class="blockInfo"><img src="/img/footer/fa-brands_viber.png" alt="relevant seo text">
+                        <p>Валерия: +79805585949</p>
+                    </div>
+                    <div class="blockInfo"><img src="/img/footer/fa-brands_viber.png" alt="relevant seo text">
+                        <p>Анна: +79805585949</p><br>
+                    </div>
+                    <div class="blockInfo"><img src="/img/footer/fa-brands_viber.png" alt="relevant seo text">
+                        <p>Валерия: +79805585949</p>
+                    </div>
+                </div>
+                <div class="footerSocial">
+                    <a href="#Link"><img src="/img/footer/Vector-3.png" alt="relevant seo text"></a>
+                    <a href="#Link"><img src="/img/footer/Vector.png" alt="relevant seo text"></a>
+                    <a href="#Link"><img src="/img/footer/Vector-1.png" alt="relevant seo text"></a>
+                    <a href="#Link"><img src="/img/footer/fa-brands_viber.png" alt="relevant seo text"></a>
+                    <a href="#Link"><img src="/img/footer/Vector-2.png" alt="relevant seo text"></a>
+                </div>
+                <p>hr@dv-s.com</p>
+                <p class="footerCopy">Developers 2018-2021 © All rights reserved</p>
+            </div>
         </div>
     </div>
+    <script type="text/javascript" src="/scripts/main.js"></script>
 </body>
 
 </html>

@@ -14,7 +14,7 @@
   font-weight: 800;
   font-size: 32px;
   line-height: 125%;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .accordion {
   max-width: 55%;
@@ -80,5 +80,17 @@
   position: absolute;
   float: right;
   top: 430px;
-  right: 100px;
+  right: calc(-5em + 13vw);
+}
+
+@media (max-width: 990px) {
+  .accordion{
+    max-width: 97%;
+  }
+  .page2Img{
+    display: none;
+  }
+  .p2Tittle {
+    text-align: center;
+  }
 }

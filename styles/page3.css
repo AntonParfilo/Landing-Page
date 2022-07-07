@@ -40,7 +40,7 @@
     position: absolute;
     width: fit-content;
     top: 129px;
-    left: 187px;
+    left: calc(1em + 5vw);
 }
 .page3Image6{
     position: absolute;
@@ -74,5 +74,32 @@
     position: relative;
     bottom: 3px;
 }
+
+@media (max-width: 990px) {
+    .page3Shape{
+        display: none;
+    }
+    .page3Image6{
+        display: none;
+    }
+    .carousel-item-wrap{
+        flex-direction: column;
+    }
+    .carousel-item-lc, .carousel-item-lc{
+        max-width: 100%;
+    }
+    .page3Control{
+        max-width: 100%;
+    }
+    .page3Control button{
+        margin: 0 50px;
+    }
+    .carousel-item-wrap{
+        min-height: 575px;
+    }
+    .page3 h2 {
+        text-align: center;
+    }
+  }
 
 

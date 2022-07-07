@@ -32,6 +32,7 @@
 }
 .footerCopy {
   position: absolute;
+  text-align: center;
   bottom: 0;
 }
 .footerrc {
@@ -53,4 +54,47 @@
   height: 27px;
   width: 27px;
   margin-top: 20px;
+}
+.footerm{
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .footer{
+    padding: 0;
+  }
+  .footerlc{
+    display: none;
+  }
+  .footerrc{
+    display: none;
+  }
+  .footercc{
+    display: none;
+  }
+  .footerm{
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .blockInfo img, .blockInfo p{
+    display: inline-block;
+    color: #fff;
+  }
+  .mlogo{
+    margin-bottom: 30px;
+  }
+  .footerSocial{
+    width: 65%;
+  }
+  .footerSocial img{
+    width: 40px;
+    height: 40px;
+  }
+  .footerCopy{
+    position: static;
+  }
 }

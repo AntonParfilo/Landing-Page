@@ -1,1 +1,1 @@
-Страничка доступна по адресу - https://ragaban.github.io/Adaptive-Landing-Page/
+Страничка доступна по адресу - https://ragaban.github.io/Landing-Page/
